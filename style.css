@@ -1,0 +1,1037 @@
+/* 
+Theme Name: YoungOnes 
+Text Domain: YoungOnes
+Version: 1.0
+Description: Bekijk hier het YoungOnes WordPress Thema gemaakt door Ruben Cali voor de stage opdracht.
+Tags: responsive, clean, recreate
+Author: Ruben Cali
+Author URI: http://rubencali.nl/
+*/
+
+html {
+  margin-top: 0px !important;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Gotham;
+  color: #212529;
+}
+
+/* begin algemene classes */
+.bold {
+  font-family: Gotham Ultra;
+}
+.huisstijl__groen {
+  color: #10d1bb;
+}
+.huisstijl__zwart {
+  color: #212529 !important;
+}
+
+/* end algemene classes */
+
+/* begin landpage  */
+/* begin navbar */
+.navbar {
+  padding: 50px 0px;
+  width: 100%;
+}
+
+.active {
+  margin-left: 3em !important;
+}
+.YoungOnes-logo {
+  width: 117.43px;
+  height: auto;
+}
+.nav-link {
+  font-weight: bold;
+  margin: -2.3em 0.7em 0px;
+  font-size: 16px;
+}
+
+.landpage__inloggen img {
+  width: 26px;
+  height: 26px;
+}
+.landpage__aanmelden {
+  position: absolute;
+  right: 12.3%;
+  padding: 10px 20px !important;
+  font-size: 18px;
+  border: 1px solid #000;
+  background: #000;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.landpage__aanmelden:hover {
+  background-color: white;
+  color: #212529 !important;
+}
+.landpage__inloggen {
+  position: absolute;
+  right: 0;
+  padding-right: 0 !important;
+}
+.active-text {
+  position: relative;
+  z-index: 5;
+}
+.active-page {
+  background-color: #10d1bb;
+  position: absolute;
+  width: 102px;
+  height: 8px;
+  margin-top: 13px;
+}
+/* end navbar */
+
+.landpage__info-image {
+  position: absolute;
+  z-index: -1;
+  margin-top: 3%;
+}
+.landpage__info-header {
+  background: #10d1bb;
+  width: 38.5%;
+  height: 85vh;
+  padding: 3% 5%;
+  right: 10%;
+  position: absolute;
+}
+.landpage__info-header--app a img {
+  width: 168.54px;
+  height: auto;
+  margin: 0 0.4em 0 0;
+}
+.landpage__info-header p img {
+  width: 24px;
+  margin-right: 1em;
+}
+.landpage__info-header p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.landpage__info-header h1 {
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 35px;
+  font-family: "Gotham Ultra";
+}
+
+/* end landpage  */
+
+/* begin informatie articles */
+#informatie {
+  margin-top: 112vh;
+}
+.informatie__article {
+  width: 90%;
+  margin: 0 auto;
+}
+.informatie__article-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.informatie__article-1--info h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.informatie__article-1--info {
+  margin-top: 3em;
+}
+.informatie__article-1--info h2 {
+  font-weight: 900;
+  font-size: 45px;
+  margin-bottom: 18px;
+  font-family: "Gotham Ultra";
+}
+.informatie__article-1--info p {
+  font-size: 18px;
+  font-family: "Gotham Book";
+}
+.informatie__article-1--image {
+  margin-left: 21.5%;
+}
+
+.informatie__article-2 {
+  margin-top: 12%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.informatie__article-2--info h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 1000;
+}
+.informatie__article-2--info {
+  margin-top: 3em;
+  margin-left: 3%;
+}
+.informatie__article-2--info h2 {
+  font-weight: 1000;
+  font-size: 45px;
+  margin-bottom: 18px;
+}
+.informatie__article-2--info p {
+  font-size: 18px;
+  font-family: "Gotham Book";
+}
+
+.informatie__article-3 {
+  margin-top: 12%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.informatie__article-3--info h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 1000;
+}
+.informatie__article-3--info {
+  margin-top: 3em;
+}
+.informatie__article-3--info h2 {
+  font-weight: 900;
+  font-size: 45px;
+  margin-bottom: 18px;
+}
+.informatie__article-3--info p {
+  font-size: 18px;
+  font-family: "Gotham Book";
+}
+.informatie__article-3--image {
+  margin-left: 21.5%;
+}
+.informatie__kernwaardes-line--top {
+  border: 1px solid ghostwhite;
+  width: 100%;
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+.informatie__kernwaardes-line--bottom {
+  border: 1px solid ghostwhite;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 125px;
+}
+.informatie__kernwaardes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+.informatie__kernwaardes img {
+  margin-bottom: 20px;
+}
+.informatie__kernwaardes-1 h3 {
+  margin-bottom: 0.67em;
+  font-size: 22px;
+  font-weight: bold;
+}
+.informatie__kernwaardes-1 p {
+  margin-bottom: 0.67em;
+  font-size: 18px;
+  font-family: "Gotham Book";
+}
+.informatie__kernwaardes-2 h3 {
+  margin-bottom: 0.67em;
+  font-size: 22px;
+  font-weight: bold;
+}
+.informatie__kernwaardes-2 p {
+  margin-bottom: 0.67em;
+  font-size: 18px;
+  font-family: "Gotham Book";
+}
+
+.informatie__kernwaardes-3 h3 {
+  margin-bottom: 0.67em;
+  font-size: 22px;
+  font-weight: bold;
+}
+.informatie__kernwaardes-3 p {
+  margin-bottom: 0.67em;
+  font-size: 18px;
+  font-family: "Gotham Book";
+}
+
+.informatie__kernwaardes-1 p a:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+/* end informatie articles */
+
+/* begin werken sectie */
+.werken__title-tag h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.werken__title h2 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 1em;
+  font-family: "Gotham Ultra";
+}
+.werken__bedrijven {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 1.5em;
+  align-items: center;
+  text-align: center;
+}
+.werken__bedrijven img {
+  width: 202px;
+  height: auto;
+}
+.werken__bedrijven-background {
+  background: ghostwhite;
+}
+.werken__bedrijven-2 {
+  height: 202px;
+}
+.werken__bedrijven-2 img {
+  margin-top: 35%;
+}
+.werken__bedrijven-3 {
+  height: 202px;
+}
+.werken__bedrijven-3 img {
+  margin-top: 30%;
+}
+/* end werken sectie */
+
+/* begin blog */
+#blog {
+  margin-top: 150px;
+  margin-left: -2em;
+}
+.blog__title-tag h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.blog__title h2 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 0.61em;
+  font-family: "Gotham Ultra";
+}
+.blog__article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.blog__article-1--image {
+  height: 350px;
+  width: 555px;
+  overflow: hidden;
+}
+.blog__article-1--image div {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://youngones.works/wp-content/uploads/2020/11/Omslag-blog-KOR.jpg.webp);
+  background-position: center;
+  background-size: cover;
+}
+.blog__article-1--image_trans div {
+    transition: transform 0.2s ease;
+}
+
+.blog__article-1--image_hover div,
+.blog__article-1--image_hover div {
+  transform: scale(1.1);
+}
+.blog__article-2--image {
+  height: 350px;
+  width: 555px;
+  overflow: hidden;
+}
+.blog__article-2--image div {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://youngones.works/wp-content/uploads/2020/11/Freelance-bezorgers.jpg.webp);
+  background-position: center;
+  background-size: cover;
+}
+.blog__article-2--image_trans div{
+    transition: transform 0.2s ease-out;
+}
+.blog__article-2--image_hover div,
+.blog__article-2--image_hover div {
+  transform: scale(1.1);
+}
+.blog__article-2 a {
+  color: #212529;
+  text-decoration: none;
+}
+.blog__article-1 a {
+  color: #212529;
+  text-decoration: none;
+}
+.blog__article-1 h3 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+.blog__article-2 h3 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+.fa-arrow-right {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 3px;
+}
+.blog__article-2 a p {
+  padding: 7px 10px;
+  background-color: #10d1bb;
+  width: fit-content;
+  border-radius: 50%;
+}
+.blog__article-1 a p {
+  padding: 7px 10px;
+  background-color: #10d1bb;
+  width: fit-content;
+  border-radius: 50%;
+}
+
+.btn-pill {
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.pulse {
+  animation: pulse 1.2s infinite;
+
+  -moz-transform: scale(1) rotate(0deg) translateY(-1px);
+  -webkit-transform: scale(1) rotate(0deg) translateY(-1px);
+  transform: scale(1) rotate(0deg) translateY(-1px);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0#10D1BB;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(64, 168, 116, 0.01);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 10px rgba(64, 168, 116, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0px 0px 0px 0px #10d1bb;
+    box-shadow: 0px 0px 0px 0px #10d1bb;
+  }
+
+  70% {
+    -moz-box-shadow: 0px 0px 0px 10px rgba(64, 168, 116, 0.01);
+    box-shadow: 0px 0px 0px 10px rgba(64, 168, 116, 0.01);
+  }
+
+  100% {
+    -moz-box-shadow: 0px 0px 0px 10px rgba(64, 168, 116, 0);
+    box-shadow: 0px 0px 0px 10px rgba(64, 168, 116, 0);
+  }
+}
+
+/* end blog */
+
+/* begin promo */
+#promo {
+  margin-left: -2em;
+  margin-top: 15%;
+}
+.promo__title-tag h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.promo__title h2 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 0.6em;
+  font-family: "Gotham Ultra";
+}
+.promo__downloads {
+  display: flex;
+  justify-content: center;
+}
+.promo__downloads img {
+  width: 168.45px;
+  height: auto;
+  margin: 0 0.5em;
+}
+
+/* end promo */
+
+/* begin footer */
+#footer {
+  background: #000;
+  margin-top: 15%;
+  color: #fff;
+}
+.footer__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+  width: 100%;
+  padding: 50px 0 100px;
+}
+
+.footer__info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.footer__info a {
+  color: #fff;
+  font-size: 16px;
+}
+.footer__info a:hover {
+  text-decoration: none;
+}
+.footer__info a p {
+  margin-bottom: 5px;
+}
+.footer__info img {
+  width: 123px;
+}
+.footer__socials {
+  padding: 45px 0 40px;
+  margin-top: -10px;
+}
+
+.footer_line {
+  border-top: 1px solid #5c5c5c;
+  width: 100%;
+}
+.footer__socials a img {
+  width: 20px;
+  height: 20px;
+  margin: 0 0.7em;
+}
+.footer__copy a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.7em;
+}
+.footer__copy a p {
+  margin: 0;
+}
+.footer__copy {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: -65px;
+}
+
+/* end footer */
+
+/* begin responsive */
+@media screen and (max-width: 420px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* begin landpage  */
+
+  /* begin navbar */
+  .navbar {
+    padding: 30px 15px 15px;
+    width: 100%;
+  }
+  .navbar-nav {
+    background: #10d1bb;
+    height: 82vh;
+    margin-top: 1em;
+    padding: 20px;
+  }
+
+  .navbar-toggler-icon {
+    width: 1.75em;
+    height: 1.75em;
+  }
+
+  .YoungOnes-logo {
+    width: 94.31px;
+    height: auto;
+  }
+
+  .nav-link {
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: -12px;
+    font-size: 16px;
+  }
+  .active {
+    margin-left: 0em !important;
+    padding-bottom: 22px;
+  }
+
+  .landpage__inloggen img {
+    width: 26px;
+    height: 26px;
+  }
+  .landpage__aanmelden {
+    position: absolute;
+    left: 12.5%;
+    padding: 10px 20px !important;
+    font-size: 18px;
+    border: 1px solid #000;
+    background: #000;
+    color: white !important;
+    border-radius: 5px;
+    text-align: center;
+    width: 75%;
+    top: 80%;
+  }
+
+  .landpage__aanmelden:hover {
+    background-color: white;
+    color: #212529 !important;
+  }
+  .landpage__inloggen {
+    position: absolute;
+    right: 37%;
+    top: 90%;
+    text-align: center;
+    padding-right: 0 !important;
+  }
+  .active-text {
+    position: relative;
+    z-index: 5;
+  }
+  .active-page {
+    display: none;
+  }
+  /* end navbar */
+
+  .landpage__info-image {
+    position: relative;
+    z-index: -1;
+    margin-top: 3%;
+    width: 100vw;
+    margin-left: -7.5px;
+  }
+  .landpage__info-header {
+    background: #10d1bb;
+    width: 100vw;
+    height: 67vh;
+    padding: 16% 11%;
+    margin-top: -16.5%;
+    right: 4.4%;
+    position: relative;
+  }
+  .landpage__info-header--app a img {
+    width: 134.73px;
+    height: auto;
+    margin: 0 0.4em 0 0;
+  }
+  .landpage__info-header p img {
+    width: 18px;
+    margin-right: 0.5em;
+  }
+  .landpage__info-header p {
+    font-size: 16px;
+  }
+  .landpage__info-header h1 {
+    font-size: 31px;
+    font-weight: 900;
+    margin-bottom: 35px;
+    font-family: "Gotham Ultra";
+  }
+
+  /* end landpage  */
+
+  /* begin informatie articles */
+  #informatie {
+    margin-top: 0.5vh;
+    margin-left: -5px;
+  }
+  .informatie__article {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .informatie__article-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+  }
+  .informatie__article-1--info h4 {
+    font-size: 20px;
+    margin-bottom: 13.4px;
+    font-weight: 600;
+  }
+  .informatie__article-1--info {
+    margin-top: 3em;
+  }
+  .informatie__article-1--info h2 {
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 11.2px;
+    font-family: "Gotham Ultra";
+  }
+  .informatie__article-1--info p {
+    font-size: 16px !important;
+    font-family: "Gotham Book";
+  }
+  .informatie__article-1--image {
+    margin-left: 0%;
+    margin-top: 15px;
+  }
+  .informatie__article-1--image img {
+    width: 345.2px;
+  }
+
+  .informatie__article-2--image img {
+    width: 345.2px;
+  }
+
+  .informatie__article-3--image img {
+    width: 345.2px;
+  }
+  .informatie__article-2--image {
+    position: absolute;
+    margin-top: 58vh;
+  }
+
+  .informatie__article-2 {
+    margin-top: 12%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+  }
+  .informatie__article-2--info h4 {
+    font-size: 20px;
+    margin-bottom: 13.4px;
+    font-weight: 600;
+  }
+  .informatie__article-2--info {
+    margin-top: 2.5em;
+    margin-left: 0%;
+  }
+  .informatie__article-2--info h2 {
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 11.2px;
+    font-family: "Gotham Ultra";
+  }
+  .informatie__article-2--info p {
+    font-size: 16px;
+    font-family: "Gotham Book";
+  }
+
+  .informatie__article-3 {
+    margin-top: 61.5vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+  }
+  .informatie__article-3--info h4 {
+    font-size: 20px;
+    margin-bottom: 13.4px;
+    font-weight: 600;
+  }
+  .informatie__article-3--info {
+    margin-top: 3em;
+  }
+  .informatie__article-3--info h2 {
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 11.2px;
+    font-family: "Gotham Ultra";
+  }
+  .informatie__article-3--info p {
+    font-size: 16px;
+    font-family: "Gotham Book";
+  }
+  .informatie__article-3--image {
+    margin-left: 0%;
+    margin-top: 15px;
+  }
+  .informatie__kernwaardes-line--top {
+    border: 1px solid ghostwhite;
+    width: 100%;
+    margin-top: 125px;
+    margin-bottom: 50px;
+  }
+  .informatie__kernwaardes-line--bottom {
+    border: 1px solid ghostwhite;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 125px;
+  }
+  .informatie__kernwaardes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+    margin-left: 15px;
+  }
+  .informatie__kernwaardes img {
+    margin-bottom: 20px;
+  }
+  .informatie__kernwaardes-1 h3 {
+    margin-bottom: 0.67em;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .informatie__kernwaardes-1 p {
+    margin-bottom: 2em;
+    font-size: 16px;
+    font-family: "Gotham Book";
+    width: 95%;
+  }
+  .informatie__kernwaardes-2 p {
+    margin-bottom: 2em;
+    font-size: 16px;
+    font-family: "Gotham Book";
+    width: 95%;
+  }
+  .informatie__kernwaardes-3 p {
+    margin-bottom: 2em;
+    font-size: 16px;
+    font-family: "Gotham Book";
+    width: 95%;
+  }
+  .informatie__kernwaardes-2 h3 {
+    margin-bottom: 0.67em;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .informatie__kernwaardes-3 h3 {
+    margin-bottom: 0.67em;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .informatie__kernwaardes-1 p a:hover {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  /* end informatie articles */
+
+  /* begin werken sectie */
+  #werken {
+    margin-left: 15px;
+    margin-top: -20%;
+  }
+  .werken__title-tag h3 {
+    font-size: 20px;
+    margin-bottom: 13.4px;
+    font-weight: bold;
+  }
+  .werken__title h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 1em;
+    font-family: "Gotham Ultra";
+  }
+  .werken__bedrijven {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1.5em;
+    align-items: center;
+    text-align: center;
+  }
+  .werken__bedrijven img {
+    width: 150px;
+    height: auto;
+  }
+  .werken__bedrijven-background {
+    background: ghostwhite;
+  }
+  .werken__bedrijven-2 {
+    height: 150px;
+  }
+  .werken__bedrijven-2 img {
+    margin-top: 35%;
+  }
+  .werken__bedrijven-3 {
+    height: 150px;
+  }
+  .werken__bedrijven-3 img {
+    margin-top: 30%;
+  }
+  /* end werken sectie */
+
+  /* begin blog */
+  #blog {
+    margin-top: 150px;
+    margin-left: 0px;
+  }
+  .blog__title-tag h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .blog__title h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 1.5em;
+    font-family: "Gotham Ultra";
+  }
+  .blog__article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+  .blog__article-1--image {
+    height: 250px;
+    width: 345.2px;
+    overflow: hidden;
+  }
+
+  .blog__article-2--image {
+    height: 250px;
+    width: 345.2px;
+  }
+
+  .blog__article-1 h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  .blog__article-2 h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  .fa-arrow-right {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3px;
+  }
+  .blog__article-2 a p {
+    padding: 5px 7.5px;
+    background-color: #10d1bb;
+    width: fit-content;
+    border-radius: 50%;
+  }
+  .blog__article-1 a p {
+    padding: 5px 7.5px;
+    background-color: #10d1bb;
+    width: fit-content;
+    border-radius: 50%;
+  }
+  /* end blog */
+
+  /* begin promo */
+  #promo {
+    margin-left: 0em;
+    margin-top: 15%;
+  }
+  .promo__title-tag h4 {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .promo__title h2 {
+    font-weight: 900;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 1.25em;
+    font-family: "Gotham Ultra";
+  }
+  .promo__downloads {
+    display: flex;
+    margin-left: -60px;
+  }
+  .promo__downloads img {
+    width: 134.73px;
+    height: auto;
+    margin: 0 5px;
+  }
+
+  /* end promo */
+
+  /* begin footer */
+  #footer {
+    background: #000;
+    margin-top: 45%;
+    color: #fff;
+    padding-left: 15px;
+  }
+  .footer__info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2em;
+    width: 100%;
+    padding: 50px 0 100px;
+  }
+
+  .footer__info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  .footer__info a {
+    color: #fff;
+    font-size: 16px;
+  }
+  .footer__info a:hover {
+    text-decoration: none;
+  }
+  .footer__info a p {
+    margin-bottom: 5px;
+  }
+  .footer__info img {
+    width: 123px;
+  }
+  .footer__socials {
+    padding: 45px 0 40px;
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-bottom: 15px;
+  }
+
+  .footer_line {
+    border-top: 1px solid #5c5c5c;
+    width: 95%;
+  }
+  .footer__socials a img {
+    width: 20px;
+    height: 20px;
+    margin: 0 0.7em;
+  }
+  .footer__copy a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.7em;
+  }
+  .footer__copy a p {
+    margin: 0;
+  }
+  .footer__copy {
+    display: block;
+    width: 100%;
+    margin-top: -20px;
+  }
+  .footer__copy a p {
+    margin-top: -1em;
+  }
+
+  /* end footer */
+}
+
+/* end responsive */
